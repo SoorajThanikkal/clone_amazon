@@ -4,8 +4,10 @@
   border: border-box;
 }
 
+
 .navbar {
   height: 65px;
+  width: 100%;
   background-color: #0f1111;
   color: white;
   width: 100%;
@@ -70,6 +72,7 @@
   border: none;
   text-decoration: none;
   font-size: 1rem;
+  /* outline: none; */
 }
 .search-icon {
   width: 45px;
@@ -105,8 +108,10 @@ span {
 
 .panel {
   display: flex;
+  position: absolute;
   background-color: #232f3e;
   height: 40px;
+  width: 100%;
   color: white;
   justify-content: space-around;
   align-items: center;
@@ -247,6 +252,8 @@ ul a{
     justify-content: center;
     align-items: center; */
     height: 80px;
+    width: 100%;
+    overflow: hidden;
 
 }
 .pages {
